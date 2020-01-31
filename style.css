@@ -2,65 +2,87 @@ body{
     margin: 0;
     padding: 0;
     border:none;
-
-    font-family: 'Montserrat', sans-serif;
 }
 .container{
+    margin: 2em auto 2em auto;
     max-width: 800px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: palegoldenrod;
+    background-color: #f3c85f;
+    border-radius: 15px;
 }
+h1{
+    color: #944e2d;
+    font-size: 4em;
+    font-family: 'Lexend Exa', sans-serif;
+    margin: .5em auto .3em auto;
+}
+
+.kat-menu, .dog-menu{
+    list-style: none;
+}
+.menu-wrapper{
+    /* background-color: #31253b; */
+    border-bottom: 2px solid white;
+    text-align: center;
+    margin: 0 auto 3em auto;
+    width: 550px;
+    height: 50px;
+    font-family: 'Lexend Exa', sans-serif;
+
+}
+.kat-menu a, .dog-menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #807410;
+}
+li {
+    display: inline;
+    padding:  0px 10px 10px 10px;
+}
+
 #katImg, #dogImg{
     height: 432x;
     width: 260px;
     margin-bottom: 40px;
     border-radius: 5px;
+    border: 1px solid white;
+}
+
+#katText, #dogText{
+    width: 60%; 
+    padding: 1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: #f5f1d4;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-color:#944e2d;
 }
 button{
     cursor: pointer;
     border: none;
     border-radius: 5px;
     padding:10px;
+    margin-bottom: 3em;
     font-weight: bold;
     color: whitesmoke;
-    background-color: #cc5849;
+    background-color: #9e9119;
 }
 button:hover{
-    background-color: #e66a5a;
-}
-#katText, #dogText{
-    text-align: center;
-    width: 80%;
-    font-size: 1.5rem;
-    padding-top: 5%;
-    padding-bottom: 15%;
-    font-weight: bold;
-}
-.kat-menu, .dog-menu{
-    list-style: none;
-}
-.kat-menu a, .dog-menu a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #cc5849;
-}
-li {
-    float: left;
-    padding:  0px 10px 10px 10px;
-}
-h1{
-    font-size: 3rem;
-    font-family: 'Lexend Exa', sans-serif;
+    background-color: #70660b;
 }
 
-.menu-wrapper{
-    background-color: #31253b;
-    text-align: center;
-    width: 450px;
-    height: 50px;
-    margin-bottom: 30px;
-   
-}
+
+
+
+
+
+
+
